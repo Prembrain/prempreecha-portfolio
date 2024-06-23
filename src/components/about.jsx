@@ -12,7 +12,7 @@ export default function about(){
                         <img className='absolute hidden sm:block z-10 bottom-[5.1rem] right-[4rem] w-[60px] h-[60px]' src={Person} alt="person" />
                     </div>
                     <div className='flex flex-col justify-center gap-4 max-w-[500px]'>
-                        <h4 className='h4 uppercase font-rubik text-n-1'>about us</h4>
+                        <h4 className='h4 uppercase font-rubik text-n-1'>about me</h4>
                         <h3 className='h3 font-rubik'>Frontend Developer<br/>based in thailand📍</h3>
                         <p className='font-roboto'>Hey, my name is Prempreecha, and I'm a Frontend Developer. My passion is to create and develop a clean UI/UX for my users.</p>
                         <p className='font-roboto'>My main stack currently is React/Next.js in combination with Tailwind CSS and TypeScript.</p>
