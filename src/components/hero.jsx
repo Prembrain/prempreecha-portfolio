@@ -10,11 +10,11 @@ export default function Hero(){
     const nextjs = theme === 'light' ? Nextjswhite : Nextjsdark
 
     return(
-        <section id="home" className='flex h-auto lg:h-[100dvh] w-full py-[4rem] lg:py-[6rem] 2xl:py-[15rem] bg-color-3 dark:bg-n-4'>
-            <div className='mx-auto w-full'>
+        <section id="home" className='flex h-auto w-full py-[4rem] lg:py-[6rem] 2xl:py-[15rem] bg-color-3 dark:bg-n-4'>
+            <div className='h-auto mx-auto w-full'>
                 <div className='flex flex-col max-w-[1280px] mx-auto gap-4 xs2:gap-10'>
                     <article className='flex flex-col lg:flex-row-reverse justify-around items-center w-full text-center gap-4 xs2:gap-6'>
-                        <div className='relative w-[250px] md:w-[350px] xl:w-[400px]'>
+                        <div className='relative max-w-[250px] md:max-w-[350px] xl:max-w-[400px]'>
                             <img className='w-full rounded-full' src={Profile} alt="profile" />
                             <img 
                                 className='absolute top-2 right-0.25 xs2:top-2 xs2:right-2 w-[25px] h-[25px] cursor-pointer hover:cursor-pointer '
